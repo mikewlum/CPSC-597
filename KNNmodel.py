@@ -43,6 +43,7 @@ model.fit(X_train, y_train)
 #predict reading from ph input
 predict = model.predict(X_test)
 
+#model assessment
 result = accuracy_score(y_test,predict)
 mae = mean_absolute_error(y_test,predict)
 r2 = r2_score(y_test, predict)
