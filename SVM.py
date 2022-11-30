@@ -1,3 +1,9 @@
+'''
+Created on Oct 11, 2022
+@author: Michael Lum
+CPSC 597
+'''
+
 # import SVC classifier
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
